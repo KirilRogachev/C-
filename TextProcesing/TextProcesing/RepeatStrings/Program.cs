@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Text;
+using System.Collections.Generic;
 using System.Linq;
+
 namespace RepeatStrings
 {
     class Program
@@ -18,9 +21,8 @@ namespace RepeatStrings
                 {
                     Console.Write(curent);
                 }
-                
+
             }
-            
         }
     }
 }

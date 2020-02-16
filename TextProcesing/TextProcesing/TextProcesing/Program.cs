@@ -1,21 +1,22 @@
 ﻿using System;
 using System.Linq;
 
-namespace ConsoleApp1
+namespace TextProcesing
+
 {
     class Program
     {
-        static string Rverce (string text)
-            {
+        static string Rverce(string text)
+        {
 
             char[] cArray = text.ToCharArray();
-             string reverse = String.Empty;
-             for (int i = cArray.Length - 1; i > -1; i--)
-                 {
-                  reverse += cArray[i];
-                 }
-                 return reverse;
-                   }
+            string reverse = String.Empty;
+            for (int i = cArray.Length - 1; i > -1; i--)
+            {
+                reverse += cArray[i];
+            }
+            return reverse;
+        }
 
         static void Main(string[] args)
         {

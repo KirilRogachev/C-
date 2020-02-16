@@ -13,11 +13,11 @@ namespace Substring
 
             while (SecoundString.Contains(firstString))
             {
-            SecoundString = SecoundString.Replace(firstString, string.Empty);
-               
+                SecoundString = SecoundString.Replace(firstString, string.Empty);
+
             }
             Console.WriteLine(SecoundString);
-          
+
 
         }
     }

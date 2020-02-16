@@ -1,9 +1,9 @@
 ﻿using System;
-using System.Text;
-using System.Collections.Generic;
 using System.Linq;
+using System.Collections.Generic;
+using System.Text;
 
-namespace DigitsLetterAndOther
+namespace DigitsLettersOther
 {
     class Program
     {
@@ -18,11 +18,11 @@ namespace DigitsLetterAndOther
             {
                 char chartext = text[i];
 
-                if(char.IsDigit(chartext))
+                if (char.IsDigit(chartext))
                 {
                     numbers.Append(chartext);
                 }
-                else if(char.IsLetter(chartext))
+                else if (char.IsLetter(chartext))
                 {
                     letters.Append(chartext);
                 }
@@ -34,8 +34,6 @@ namespace DigitsLetterAndOther
             Console.WriteLine($"{numbers}\n{letters}\n{other}");
 
 
-           
         }
-      
     }
 }
